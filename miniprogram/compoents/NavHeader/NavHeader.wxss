@@ -1,0 +1,17 @@
+.aboutmusic_header{
+  padding-bottom: 20rpx;
+}
+
+.about{
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color:#666
+ }
+ 
+ .about_center .get{
+   float: right;
+   font-size: 26rpx;
+   border: 1px solid #333;
+   padding: 10rpx 20rpx;
+   border-radius: 30rpx;
+ }

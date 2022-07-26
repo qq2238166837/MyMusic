@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/vieo/vieo",
+    "pages/personal/personal",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d43a33",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d43c33",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./state/images/tabs/tab-home.png",
+        "selectedIconPath": "./state/images/tabs/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/vieo/vieo",
+        "text": "视频",
+        "iconPath": "./state/images/tabs/select.png",
+        "selectedIconPath": "./state/images/tabs/selected.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "./state/images/tabs/tab-my.png",
+        "selectedIconPath": "./state/images/tabs/tab-my-current.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

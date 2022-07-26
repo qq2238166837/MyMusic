@@ -1,0 +1,5 @@
+@import "./state/iconfont/iconfont.wxss";
+
+page{
+  height: 100%;
+}
